@@ -126,7 +126,7 @@ function AddMarkerConductor(data) {
         content: `<strong>Medidor: ${conductor.medidor}
                     <p>Lampara ${conductor.lampara}</p>
                     <p>Capacidad ${conductor.capacidad}</p>
-                    <p>Sattus ${conductor.status}</p>
+                    <p>Status ${conductor.status}</p>
                     </strong>`
     });
     var uluru = { lat: parseFloat(conductor.latitud), lng: parseFloat(conductor.longitud) };
